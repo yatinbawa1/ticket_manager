@@ -1,0 +1,42 @@
+.Usercomponent {
+  display: flex;
+  cursor: pointer;
+  border-top: 1px solid rgba($color: #fff, $alpha: 0.2);
+  border-bottom: 1px solid rgba($color: #fff, $alpha: 0.2);
+  &-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto 0;
+    background-position: top;
+    background-size: cover;
+  }
+  &-Userinfo {
+    margin: auto 10px;
+    display: flex;
+    flex-direction: column;
+    &-name {
+      font-size: 18px;
+      color: #fff;
+      font-weight: 600;
+      justify-self: center;
+    }
+    &-position {
+      justify-self: center;
+      color: rgba($color: #fff, $alpha: 0.58);
+    }
+  }
+  &-logout {
+    justify-self: end;
+    display: flex;
+    margin-left: auto;
+    &-img {
+      width: 20px;
+      margin: auto;
+    }
+  }
+}
+
+.full-width {
+  width: 100%;
+}

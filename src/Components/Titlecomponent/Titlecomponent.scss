@@ -1,0 +1,27 @@
+.Titlecomponent {
+  display: flex;
+  cursor: pointer;
+  transition: background 0.4s;
+  position: relative;
+  &:hover {
+    background: rgba($color: #ffffff, $alpha: 0.1);
+  }
+}
+
+.center-ver {
+  display: flex;
+  margin: auto 20px;
+}
+.center {
+  margin: auto;
+  display: flex;
+}
+.menuBtn {
+  width: 2rem;
+}
+.title {
+  font-size: 2rem;
+  margin-left: 10px;
+  color: #c8c8c8;
+  font-weight: 400;
+}
