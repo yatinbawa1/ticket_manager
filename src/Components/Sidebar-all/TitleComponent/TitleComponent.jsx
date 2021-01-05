@@ -1,5 +1,5 @@
 import React from "react";
-import "./Titlecomponent.scss";
+import "./TitleComponent.scss";
 import menuBtn from "./menuBtn.svg";
 const Titlecomponent = ({ changeStateSidebar }) => {
   return (

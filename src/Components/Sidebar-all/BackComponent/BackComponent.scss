@@ -1,0 +1,9 @@
+.BackComponent {
+  display: flex;
+  cursor: pointer;
+  transition: background 0.4s;
+  position: relative;
+  &:hover {
+    background: rgba($color: #ffffff, $alpha: 0.1);
+  }
+}

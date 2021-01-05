@@ -37,6 +37,52 @@
   }
 }
 
+.relative {
+  position: relative;
+}
 .full-width {
   width: 100%;
+}
+
+.toBeBlur {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: all 0.1s;
+  display: flex;
+}
+
+.Usercomponent:hover .toBeBlur {
+  transform: matrix(1, 0, 0.2, 0.1, 0, 0);
+  perspective: 2px;
+  opacity: 0;
+}
+
+.flipper {
+  position: relative;
+}
+.backside {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: matrix(1, 0, 0.2, 0.1, 0, 0);
+  display: flex;
+  opacity: 0;
+  transition: 0.4s;
+  &-slogan {
+    margin: auto;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba($color: #fff, $alpha: 0.58);
+  }
+}
+
+.Usercomponent:hover .backside {
+  transform: none;
+  opacity: 1;
+  &-slogan {
+    color: #fff;
+  }
 }

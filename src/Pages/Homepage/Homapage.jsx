@@ -1,7 +1,7 @@
 import React from "react";
 import "./Homepage.scss";
-import Sidebar from "../../Components/Sidebar/Sidebar";
-import Ticketarea from "../../Components/Ticketarea/Ticketarea";
+import Sidebar from "../../Components/Sidebar-all/Sidebar/Sidebar";
+import TicketArea from "../../Components/TicketArea/TicketArea";
 class Homepage extends React.Component {
   state = {
     showSidebar: true,
@@ -19,13 +19,13 @@ class Homepage extends React.Component {
             className="Homepage-sidebar"
             changeStateSidebar={this.changeStateSidebar}
           />
-          <Ticketarea showSidebar={showSidebar} />
+          <TicketArea showSidebar={showSidebar} />
         </div>
       );
     }
     return (
       <div className="Homepage Homapage-off">
-        <Ticketarea
+        <TicketArea
           showSidebar={showSidebar}
           changeStateSidebar={this.changeStateSidebar}
         />

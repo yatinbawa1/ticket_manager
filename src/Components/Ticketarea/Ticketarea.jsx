@@ -1,6 +1,6 @@
 import React from "react";
-import "./Ticketarea.scss";
-import menuBtn from "../../Components/Titlecomponent/menuBtn.svg";
+import "./TicketArea.scss";
+import menuBtn from "../../Components/Sidebar-all/TitleComponent/menuBtn.svg";
 const Ticketarea = ({ changeStateSidebar, showSidebar }) => {
   return (
     <div className="Ticketarea">

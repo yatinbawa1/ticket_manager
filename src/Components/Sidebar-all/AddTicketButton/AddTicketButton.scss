@@ -1,0 +1,30 @@
+.AddTicketButton {
+  border-top: 1px solid rgba($color: #fff, $alpha: 0.2);
+  background: linear-gradient(
+    90deg,
+    rgba(114, 142, 175, 0.22) 18.16%,
+    rgba(105, 135, 170, 0.22) 86.84%
+  );
+  min-width: 100%;
+  transition: background 0.4s;
+  display: flex;
+  &-content {
+    margin: auto;
+    display: flex;
+    &-slogan {
+      font-size: 24px;
+      color: #ffffff;
+    }
+    &-logo {
+      width: 25px;
+      margin-left: 10px;
+    }
+  }
+  &:hover {
+    background: linear-gradient(
+      180deg,
+      rgba(114, 142, 175, 0.45) 24%,
+      rgba(105, 135, 170, 0.45) 95%
+    );
+  }
+}
