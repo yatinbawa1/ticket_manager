@@ -6,10 +6,16 @@
   &-image {
     width: 60px;
     height: 60px;
-    border-radius: 50%;
+    // border-radius: 50%;
+    clip-path: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
     margin: auto 0;
     background-position: top;
     background-size: cover;
+    &-img {
+      transform: scale(1.2);
+      height: 100%;
+    }
   }
   &-Userinfo {
     margin: auto 10px;

@@ -1,0 +1,6 @@
+.MainSidebar {
+  display: grid;
+  grid-template-rows: 1fr 1fr 6fr 1fr;
+  max-height: 100vh;
+  min-height: 100vh;
+}

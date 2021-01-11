@@ -2,13 +2,6 @@
   background-color: rgba($color: #374045, $alpha: 0.4);
   backdrop-filter: blur(30px);
   border-right: 1px solid rgba(255, 255, 255, 0.2);
-  display: grid;
   max-height: 100vh;
   min-height: 100vh;
-  &-main {
-    grid-template-rows: 1fr 1fr 6fr 1fr;
-  }
-  &-add {
-    grid-template-rows: 1fr 1fr 1fr 7fr;
-  }
 }
