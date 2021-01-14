@@ -1,7 +1,7 @@
 import React from "react";
 import "./Homepage.scss";
 import Sidebar from "../../Components/Sidebar-all/Sidebar/Sidebar";
-import TicketArea from "../../Components/TicketArea/TicketArea";
+import TicketArea from "../../Components/TicketArea/TicketArea"
 class Homepage extends React.Component {
   state = {
     showSidebar: true,
